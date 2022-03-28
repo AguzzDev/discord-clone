@@ -1,12 +1,12 @@
 import { Field } from "formik"
 
-// type Props = {
-//   type: string
-//   value: string
-//   placeholder: string
-//   inputType: string
-//   handleChange:(e: React.ChangeEvent<any>) => void
-// }
+type Props = {
+  type: string
+  value: string
+  placeholder: string
+  inputType: string
+  handleChange:(e: React.ChangeEvent<any>) => void
+}
 
 export const FieldBox = ({
   type,

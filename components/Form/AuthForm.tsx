@@ -25,7 +25,6 @@ export const AuthForm = () => {
             placeholder=""
             inputType="email"
           />
-
           <button type="submit">asd</button>
         </Form>
       )}

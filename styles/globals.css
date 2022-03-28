@@ -14,12 +14,20 @@
   body {
     @apply font-discord;
   }
-  h1,
+  h1 {
+    @apply text-white text-2xl font-bold;
+  }
   h2,
   h3,
   h4,
   h5,
-  p{
+  button {
     @apply text-white;
+  }
+  p {
+    @apply text-graylight;
+  }
+  input {
+    @apply w-full outline-none bg-gray3 pl-2 text-white rounded-sm p-[.08rem];
   }
 }

@@ -14,7 +14,7 @@ const Layout = ({ children, title }: Props) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <section className="flex w-screen min-h-screen">
+      <section className="flex w-screen min-h-screen overflow-hidden">
         <div className="w-[4.8vw] bg-gray3">
           <NavbarApp />
         </div>

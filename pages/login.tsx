@@ -15,7 +15,7 @@ const Login: NextPage = () => {
             <p>¡Nos alegramos mucho de volver a verte!</p>
           </div>
 
-          {/* <AuthForm /> */}
+          <AuthForm />
         </div>
       </section>
     </section>

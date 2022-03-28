@@ -3,9 +3,5 @@ type Props = {
 }
 
 export const Layout2 = ({ children }: Props) => {
-  return (
-  
-      <div className="w-3/12 bg-gray4">{children}</div>
-    
-  )
+  return <div className="flex flex-col w-[18vw] bg-gray4">{children}</div>
 }
